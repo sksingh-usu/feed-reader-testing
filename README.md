@@ -9,7 +9,8 @@ Feed Reader Testing Application
 ### Project Setup
  - Copy the repo in your system and double click on index.html.
  -  You should see a page with live feeds from Udacity.
-##### Result
+
+### Result
 At the bottom of the page you should see the Jasmine Results as following image. 
 ![Result](/Result.PNG)
 
