@@ -9,8 +9,10 @@ Feed Reader Testing Application
 ### Project Setup
  - Copy the repo in your system and double click on index.html.
  -  You should see a page with live feeds from Udacity.
-##### Result
-At the bottom of the page you should see the Jasmine Results as following image. ![Result](/Result.PNG)
+
+### Result
+At the bottom of the page you should see the Jasmine Results as following image. 
+![Result](/Result.PNG)
 
 ### Jasmine
 It is a open source testing framework to test the front-end or any JS powered application. It's easy to understand coding style makes it a popular choice for TTD and features very basic syntax. Example from wiki:
