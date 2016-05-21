@@ -106,20 +106,16 @@ $(function () {
         var initialFeed, reloadedFeed;
         beforeEach(function (done) {
             loadFeed(1, function() {
-                initialFeed = $('.feed').html();
+                initialFeed = $('.feed').html().toString();
                 loadFeed(2, function() {
-                    reloadedFeed = $('.feed').html();
+                    reloadedFeed = $('.feed').html().toString();
                     done();
                 });
             });
         });
 
         it('feed changes on reload', function () {
-            var reloadedFeed = $('.feed');
-            var initalFeedHtml = initialFeed.toString();
-            var finalFeedHtml = reloadedFeed.toString();
-            var isEqual = initalFeedHtml === finalFeedHtml;
-            expect(isEqual).not.toBe(true);
+            expect(initialFeed === reloadedFeed).not.toBe(true);
         });
     });
 }());
